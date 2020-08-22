@@ -1,0 +1,7 @@
+config BR2_PACKAGE_GT
+	bool "gt"
+	select BR2_PACKAGE_LIBUSBGX
+	help
+	  Linux command line tool for setting USB gadget using configFS.
+
+	  https://github.com/kopasiak/gt
